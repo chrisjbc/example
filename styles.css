@@ -1,0 +1,29 @@
+/* Styles for the dropdown navigation menu */
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #menu li a {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;}
